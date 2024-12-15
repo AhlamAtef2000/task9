@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#2-FlexBox</title>
+</head>
+<style>
+
+    .divflex{
+        border: darkgoldenrod solid 9px;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .divbody{
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        width: 369px;
+        height: 2.8em;
+        flex-grow: 1;
+        align-content: center;
+    }
+    </style>
+<body>
+    <div class="divflex">
+        <div class="divbody" style="background-color: rgb(37, 173, 207); ">1</div>
+        <div class="divbody" style="background-color: rgb(99, 159, 236); ">2</div>
+        <div  class="divbody" style="background-color: rgb(85, 81, 211); ">3</div>
+        <div  class="divbody" style="background-color: rgb(31, 111, 134);  ">4</div>
+        <div  class="divbody" style="background-color: rgb(208, 235, 125);">5</div>
+        <div  class="divbody" style="background-color: rgb(235, 191, 125); ">6</div>
+        <div  class="divbody" style="background-color: rgb(222, 57, 57); ">7</div>
+        <div class="divbody" style="background-color: gray ;">8</div>
+        <div class="divbody" style="background-color: rgb(111, 227, 161);flex-grow: 0;">9</div>
+        <div class="divbody" style="background-color: rgb(0, 68, 66);flex-grow: 0;">10</div>
+    </div>
+</body>
+</html>
